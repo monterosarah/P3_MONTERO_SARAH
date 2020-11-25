@@ -448,10 +448,12 @@ footer p {
 }
 
 #sitemap {
-    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5%;
     grid-template-areas: 
         "design inspiration"
         "ideas singles";
@@ -595,27 +597,16 @@ footer .fa {
     }
 
     #sitemap {
-        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
         display: grid;
-        grid-template-columns: 3, 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
-            "design inspiration ideas"
-            "singles ";
-    }
-
-    #designmap {
-        grid-area: design;
-    }
-    
-    #inspirationmap {
-        grid-area: inspiration;
-    }
-
-    #ideasmap {
-        grid-area: ideas;
+            "design inspiration ideas";
     }
 
     #social {
+        margin-top: -45px;
         font-family: 'Stardos Stencil', cursive;
         font-size: 1.5rem;
     }
@@ -780,25 +771,14 @@ footer .fa {
     }
 
     #sitemap {
-        margin: 0;
+        margin-left: 75px;
+        margin-right: 75px;
         padding: 0;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: 0;
+        grid-column-gap: 2%;
         grid-template-areas: 
             "design inspiration ideas singles";
-    }
-    
-    #designmap {
-        grid-area: design;
-    }
-    
-    #inspirationmap {
-        grid-area: inspiration;
-    }
-    
-    #singles {
-        grid-area: singles;
     }
 
     #social {
