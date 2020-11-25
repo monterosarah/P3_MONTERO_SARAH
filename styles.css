@@ -64,8 +64,35 @@ p {
 
 /* Links */
 
-a {
-    color: #4d7580; 
+section p a {
+    transition: font-size .3s;
+    text-decoration: underline;
+    color: #395760;
+}
+
+section p a:hover {
+    font-size: 1.1rem;
+    color: #60919f;
+}
+
+h3 a {
+    transition: font-size .3s;
+    text-decoration: none;
+    color: black;
+}
+
+h3 a:hover {
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 /* Hamburger Menu */
@@ -216,6 +243,19 @@ a {
     text-decoration: none;
     transition: color 0.4s ease;
 }  
+
+.menu-wrap .menu > div > div > ul > li > a {
+    transition: font-size .3s;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-wrap .menu > div > div > ul > li a:hover {
+    font-size: 3rem;
+    color: #395760;
+}
+
 }
 
 /* Slideshow */
@@ -629,6 +669,15 @@ footer .fa {
         box-shadow: none;
     }
 
+    h1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 a:hover {
+        color: #4d7580;
+    }
+
     h2 {
         font-size: 2.75rem;
         width: 100%;
@@ -697,8 +746,15 @@ footer .fa {
     }
 
     .menu-wrap .menu > div > div > ul > li > a {
+        transition: font-size .3s;
+        font-size: 2rem;
         text-decoration: none;
         color: black;
+    }
+
+    .menu-wrap .menu > div > div > ul > li a:hover {
+        font-size: 2.3rem;
+        color: #395760;
     }
 
     .slideshow-container {
