@@ -428,7 +428,7 @@ footer p {
 /* Site Map */
 
 .map {
-    width: 60%;
+    width: 100%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -436,10 +436,6 @@ footer p {
 .map a {
     text-decoration: none;
     color: black;
-}
-
-.map h3 {
-    margin-left: -17%;
 }
 
 .map li {
@@ -451,26 +447,26 @@ footer p {
     margin-left: -20px;
 }
 
-#inspirationmap {
-    float: left;
-    width: 45%;
-    margin-left: 55%;
-    margin-top: -218px;
+#sitemap {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "design inspiration"
+        "ideas singles";
 }
 
-#inspirationmap li {
-    margin-left: -40px;
+#designmap {
+    grid-area: design;
+}
+
+#inspirationmap {
+    grid-area: inspiration;
 }
 
 #singles {
-    float: right;
-    width: 60%;
-    margin-top: -200px;
-}
-
-#singles h3 {
-    width: 100%;
-    margin-left: 55%;
+    grid-area: singles;
 }
 
 /* Social Media Links */
@@ -593,55 +589,35 @@ footer .fa {
         width: 55%;
     }
 
-    .map {
-        width: 30%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
     .map a {
         text-decoration: none;
         color: black;
     }
 
+    #sitemap {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3, 1fr;
+        grid-template-areas: 
+            "design inspiration ideas"
+            "singles ";
+    }
+
     #designmap {
-        margin-left: 4%;
+        grid-area: design;
     }
-
+    
     #inspirationmap {
-        float: left;
-        margin-left: 40%;
-        margin-top: -219px;
-    }
-
-    #inspirationmap h3 {
-        margin-left: -60%;
+        grid-area: inspiration;
     }
 
     #ideasmap {
-        float: left;
-        margin-left: 71%;
-        margin-top: -219px;
-    }
-
-    #singles {
-        float: left;
-        width: 100%;
-        margin-top: -25px;
-        margin-bottom: 20px;
-        margin-left: -14%;
-    }
-
-    #aboutmap {
-        margin-top: -58px;
-        margin-left: 33%;
+        grid-area: ideas;
     }
 
     #social {
         font-family: 'Stardos Stencil', cursive;
         font-size: 1.5rem;
-        text-align: right;
-        margin-top: 110px;
     }
 }
 
@@ -790,13 +766,6 @@ footer .fa {
         padding: 1%;
         margin: 0;
     }
-    
-    #contactus p {
-        width: 43.5%;
-        margin-left: 8%;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: left;
-    }
 
     #copyhr {
         width: 100%;
@@ -805,55 +774,31 @@ footer .fa {
         margin-bottom: 0;
     }
 
-    .map {
-        width: 25%;
-    }
-
     .map a {
         text-decoration: none;
         color: black;
     }
 
-    .map li {
-        list-style-type: none;
-        text-align: left;
-        line-height: 1.75rem;
-        margin-left: -30%;
+    #sitemap {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 0;
+        grid-template-areas: 
+            "design inspiration ideas singles";
     }
-
+    
+    #designmap {
+        grid-area: design;
+    }
+    
     #inspirationmap {
-        float: left;
-        margin-left: 25%;
-        margin-top: -251px;
+        grid-area: inspiration;
     }
-
-    #inspirationmap h3 {
-        margin-left: -57%;
-    }
-
-    #ideasmap {
-        float: left;
-        margin-left: 51%;
-        margin-top: -251px;
-    }
-
-    #ideasmap li {
-        margin-left: -35%;
-    }
-
+    
     #singles {
-        margin-top: -250px;
-    }
-
-    #aboutmap {
-        width: 37%;
-        margin-top: 5px;
-        margin-left: 45%;
-    }
-
-    #contactmap {
-        width: 37%;
-        margin-left: 45%;
+        grid-area: singles;
     }
 
     #social {
