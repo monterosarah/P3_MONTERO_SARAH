@@ -430,6 +430,10 @@ img {
     width: 70%;
 }
 
+figure img:hover {
+    box-shadow: 5px 5px 10px #b3b3b3;
+}
+
 .contentimg {
     border-radius: 55% 0.8% 55% 0.8%;
 }
@@ -699,10 +703,6 @@ footer .fa {
         padding: 0;
         width: 80%;
         text-align: center;
-    }
-
-    figure img:hover {
-        box-shadow: 5px 5px 10px #b3b3b3;
     }
 
     .rfloat {
