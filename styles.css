@@ -701,6 +701,10 @@ footer .fa {
         text-align: center;
     }
 
+    figure img:hover {
+        box-shadow: 5px 5px 10px #b3b3b3;
+    }
+
     .rfloat {
         margin-right: 0;
         padding: 0;
