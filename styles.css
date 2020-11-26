@@ -5,6 +5,14 @@
 body {
     margin: 0;
     padding: 0;
+    animation-name: fade-In;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-In {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 /* Headings and Paragraph */
