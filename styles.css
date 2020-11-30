@@ -70,6 +70,19 @@ p {
     padding-right: 5%;
 }
 
+/* Banner */
+
+
+
+#banner img {
+    top: 0;
+    width: 100%;
+}
+
+#banner img:hover {
+    box-shadow: none;
+}
+
 /* Links */
 
 section p a {
@@ -715,7 +728,7 @@ footer .fa {
 
     .menu-wrap {
         position: fixed;
-        z-index: 2;
+        z-index: 9;
         background-color: #eadbc8;
         width: 100%;
         margin-top: 9px;
