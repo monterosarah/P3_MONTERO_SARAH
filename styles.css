@@ -132,7 +132,6 @@ li a:hover {
 }
 
 /* Hamburger Menu */
-
 @media (min-width: 0px) and (max-width: 1023px) {
 .menu-wrap {
     position: fixed;
@@ -291,7 +290,11 @@ li a:hover {
     font-size: 3rem;
     color: #395760;
 }
+}
 
+.menu-wrap .menu > div > div > ul > .about a,
+.menu-wrap .menu > div > div > ul > .contact a {
+    color: #4d7580;
 }
 
 /* Slideshow */
