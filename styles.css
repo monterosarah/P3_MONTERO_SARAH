@@ -73,6 +73,8 @@ p {
 /* Banner */
 
 #banner {
+    margin: 0;
+    padding: 0;
     position: relative;
     text-align: center;
 }
@@ -81,6 +83,11 @@ p {
     opacity: .6;
     margin-top: 100px;
     width: 100%;
+}
+
+#banner p {
+    margin: 0;
+    padding: 0;
 }
 
 #banner img:hover {
@@ -93,7 +100,7 @@ p {
     width: 100%;
     font-size: 2.75rem;
     position: absolute;
-    top: 18%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -626,12 +633,12 @@ footer .fa {
     }
 
     #banner img {
-        margin-top: 80px;
+        margin-top: 120px;
     }
 
     #overlay {
         font-size: 3.25rem;
-        top: 35%;
+        top: 50%;
     }
 
     .menu-wrap {
@@ -760,21 +767,20 @@ footer .fa {
     }
 
     #nav {
-        margin-top: 15px;
+        margin-top: -45px;
     }
 
     #banner img {
-        margin-top: 90px;
+        margin-top: 150px;
     }
 
     #overlay {
-        width: 85%;
+        width: 100%;
         font-family: 'Stardos Stencil', cursive;
         font-weight: 700;
-        font-size: 3rem;
-        position: absolute;
-        top: 50%;
-        left: 43%;
+        font-size: 3.5rem;
+        top: 55%;
+        left: 50%;
     }
 
     .menu-wrap {
