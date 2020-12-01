@@ -486,6 +486,15 @@ figure img:hover {
     border-radius: 55% 0.8% 55% 0.8%;
 }
 
+/* Google Map */
+
+iframe {
+    width: 84%;
+    height: 400px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
 /* Horizontal Rule */
 
 hr {
