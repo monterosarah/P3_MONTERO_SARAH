@@ -60,8 +60,37 @@
 
 </section>
 
+<hr>
+
 <article>
   <form>
+  <h4>What Are You Inquiring About?</h4>
+    <section id="radio">
+      <section id="price">
+        <input type="radio" name="about" value="price">
+        <label for="price">Price Range</label>
+      </section>
+      <section id="service">
+        <input type="radio" name="about" value="service">
+        <label for="service">Available Services</label>
+      </section>
+      <section id="appointment">
+        <input type="radio" name="about" value="appointment">
+        <label for="appointment">Book An Appointment</label>
+      </section>
+      <section id="question">
+        <input type="radio" name="about" value="questions">
+        <label for="questions">Questions</label>
+      </section>
+      <section id="concern">
+        <input type="radio" name="about" value="concerns">
+        <label for="concerns">Concerns</label>
+      </section>
+      <section id="other">
+        <input type="radio" name="about" value="other">
+        <label for="other">Other</label>
+      </section>
+  </section>
   <section class="form-box">
     <label for="fname" class="fname">First Name</label>
     <input type="text" class="fname" name="fname" placeholder="First Name"><br>
@@ -77,22 +106,8 @@
     <input type="email" id="email" name="email" placeholder="Preferred Email"><br>
   </section>
 
-  <section>
-    <h4>What Are You Inquiring About?</h4>
-      <input type="radio" id="price" name="about" value="price">
-      <label for="price">Price Range</label>
-      <input type="radio" id="service" name="about" value="service">
-      <label for="service">Available Services</label>
-      <input type="radio" id="appointment" name="about" value="appointment">
-      <label for="appointment">Book An Appointment</label>
-      <input type="radio" id="questions" name="about" value="questions">
-      <label for="questions">Questions</label>
-      <input type="radio" id="other" name="about" value="other">
-      <label for="other">Other</label>
-  </section><br>
-
   <section class="form-box">
-    <label for="subject">Subject</label><br>
+    <label for="subject">Subject</label>
     <input type="text" id="subject" name="subject" placeholder="Subject"><br>
   </section>
 
@@ -103,7 +118,7 @@
 
     <br>
 
-  <section class="form-box">
+  <section id="buttons">
     <input type="reset" id="reset">
     <input type="submit" id="submit">
   </section>
