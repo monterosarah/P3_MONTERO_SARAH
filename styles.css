@@ -292,8 +292,9 @@ li a:hover {
 }
 }
 
+.menu-wrap .menu > div > div > ul > .home a,
 .menu-wrap .menu > div > div > ul > .about a,
-.menu-wrap .menu > div > div > ul > .contact a {
+.menu-wrap .menu > div > div > ul > .contact a{
     color: #4d7580;
 }
 
