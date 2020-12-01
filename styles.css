@@ -681,6 +681,10 @@ footer .fa {
         border-radius: 0px 0px 40px 40px;
     }
 
+    .slideshow-container img:hover {
+        box-shadow: 1px 4px 12px grey;
+    }
+
     .contentimg {
         width: 55%;
     }
