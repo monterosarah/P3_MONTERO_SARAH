@@ -438,7 +438,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 1.25rem;
 }
 
 ul.breadcrumb li+li:before {
@@ -448,10 +448,11 @@ ul.breadcrumb li+li:before {
 }
 
 ul.breadcrumb li a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 ul.breadcrumb li a:hover {
+    color: #4d7580;
     text-decoration: underline;
 }
 
