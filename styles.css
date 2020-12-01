@@ -539,6 +539,10 @@ input, label, textarea, button {
         "concern other";
 }
 
+#radio input {
+    width: 17px;
+}
+
 #price {
     grid-area: price;
 } 
