@@ -862,10 +862,6 @@ footer .fa {
         border-radius: 50px;
         border-style: none;
     }
-    
-    #buttons input:hover {
-        box-shadow: 1px 4px 12px grey;
-    }
 
     .map a {
         text-decoration: none;
@@ -1041,6 +1037,84 @@ footer .fa {
         margin-right: 5%;
         float: left;
         border-radius: 0.8% 55% 0.8% 55%;
+    }
+
+    #column {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0;
+        grid-template-areas: 
+            "contact form";
+    }
+
+    #instructions {
+        grid-area: contact;
+    }
+
+    .divide {
+        display: none;
+    }
+
+    textarea {
+        margin-bottom: 0;
+        background-color: #eadbc8;
+        opacity: .75;
+        border-style: solid;
+        border-color: #a1c0c7;
+        border-width: 1px;
+        height: 200px;
+    }
+
+    input, label, textarea, button, legend {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.75rem .75rem;
+        font-size: 1.1rem;
+        color: inherit;
+        caret-color: #4d7580;
+    }
+
+    form {
+        grid-area: form;
+        padding-top: 1%;
+        border-left-style: solid;
+        border-color: grey;
+        border-width: 1px;
+    }
+
+    .form-box label, legend {
+        display: block;
+    }
+
+    #radio {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: 2,1fr;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+            "price service"
+            "appointment questions"
+            "concern other";
+    }
+    
+    #buttons input {
+        width: 25%;
+        color: black;
+        background-color: #a1c0c7;
+        border-radius: 50px;
+        border-style: none;
+    }
+
+    #contact {
+        margin-top: -100%;
+    }
+
+    #contact p {
+        font-size: 1rem;
     }
 
     footer {
