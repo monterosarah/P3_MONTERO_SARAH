@@ -503,6 +503,16 @@ iframe {
 
 /* Form */
 
+textarea {
+    margin-bottom: 0;
+    background-color: #eadbc8;
+    opacity: .75;
+    border-style: solid;
+    border-color: #a1c0c7;
+    border-width: 1px;
+    height: 200px;
+}
+
 input, label, textarea, button {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5rem .75rem;
@@ -524,8 +534,7 @@ input, label, textarea, button {
     display: none;
 }
 
-.form-box input,
-.form-box textarea {
+.form-box input {
     flex-basis: 100%;
     margin-bottom: 0;
     background-color: #eadbc8;
@@ -803,6 +812,16 @@ footer .fa {
         width: 55%;
     }
 
+    textarea {
+        margin-bottom: 0;
+        background-color: #eadbc8;
+        opacity: .75;
+        border-style: solid;
+        border-color: #a1c0c7;
+        border-width: 1px;
+        height: 200px;
+    }
+
     input, label, textarea, button, legend {
         font-family: Arial, Helvetica, sans-serif;
         padding: 0.75rem .75rem;
@@ -814,8 +833,7 @@ footer .fa {
     .form-box label, legend {
         display: block;
     }
-    .form-box input,
-    .form-box textarea{
+    .form-box input {
         flex-basis: 100%;
         margin-bottom: -5px;
     }
