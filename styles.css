@@ -120,7 +120,7 @@ section p a {
 }
 
 section p a:hover {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: #60919f;
 }
 
@@ -921,7 +921,7 @@ footer .fa {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         line-height: 2rem;
         margin-left: 7.5%;
         margin-right: 7.5%;
