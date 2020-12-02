@@ -1037,7 +1037,31 @@ footer .fa {
         border-radius: 0.8% 55% 0.8% 55%;
     }
 
-    #column {
+    #about-column {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-column-gap: 0;
+        grid-template-areas: 
+            "us map";
+    }
+
+    #us {
+        grid-area: us;
+    }
+
+    #map {
+        margin-top: -50px;
+        grid-area: map;
+    }
+
+    #map h2 {
+        font-size: 2rem;
+    }
+
+    #contact-column {
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 5%;
@@ -1108,7 +1132,7 @@ footer .fa {
     }
 
     #contact {
-        margin-top: -110%;
+        margin-top: -100%;
     }
 
     #contact p {
