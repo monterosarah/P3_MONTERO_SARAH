@@ -837,11 +837,16 @@ footer .fa {
         flex-basis: 100%;
         margin-bottom: -5px;
     }
-    
+
     #radio {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 0;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
         grid-row-gap: 20px;
+        grid-template-areas: 
+            "price service appointment"
+            "questions concern other";
     }
     
     #buttons input {
