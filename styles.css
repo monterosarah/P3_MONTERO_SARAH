@@ -510,7 +510,8 @@ input, label, textarea, button {
     color: inherit;
     caret-color: #4d7580;
 }
-.form-box{
+
+.form-box {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 5%;
@@ -518,12 +519,20 @@ input, label, textarea, button {
     display: flex;
     flex-direction: column;
 }
+
 .form-box label, legend {
     display: none;
 }
+
 .form-box input,
-.form-box textarea{
+.form-box textarea {
     flex-basis: 100%;
+    margin-bottom: 0;
+    background-color: #eadbc8;
+    opacity: .75;
+    border-style: solid;
+    border-color: #a1c0c7;
+    border-width: 1px;
 }
 
 #radio {
@@ -578,6 +587,10 @@ input, label, textarea, button {
 
 #buttons input:hover {
     box-shadow: 1px 4px 12px grey;
+}
+
+#contact p {
+    font-size: 1.25rem;
 }
 
 /* Horizontal Rule */
@@ -788,6 +801,42 @@ footer .fa {
 
     .contentimg {
         width: 55%;
+    }
+
+    input, label, textarea, button, legend {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.75rem .75rem;
+        font-size: 1.2rem;
+        color: inherit;
+        caret-color: #4d7580;
+    }
+
+    .form-box label, legend {
+        display: block;
+    }
+    .form-box input,
+    .form-box textarea{
+        flex-basis: 100%;
+        margin-bottom: -5px;
+    }
+    
+    #radio {
+        margin-left: 15%;
+        margin-right: 15%;
+        grid-row-gap: 20px;
+    }
+    
+    #buttons input {
+        width: 175px;
+        margin: 3%;
+        color: black;
+        background-color: #a1c0c7;
+        border-radius: 50px;
+        border-style: none;
+    }
+    
+    #buttons input:hover {
+        box-shadow: 1px 4px 12px grey;
     }
 
     .map a {
