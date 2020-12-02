@@ -504,9 +504,8 @@ iframe {
 /* Form */
 
 textarea {
+    background-color: #f1e7da;
     margin-bottom: 0;
-    background-color: #eadbc8;
-    opacity: .75;
     border-style: solid;
     border-color: #a1c0c7;
     border-width: 1px;
@@ -518,7 +517,7 @@ input, label, textarea, button {
     padding: 0.5rem .75rem;
     font-size: 1.2rem;
     color: inherit;
-    caret-color: #4d7580;
+    caret-color: #395760;
 }
 
 .form-box {
@@ -537,8 +536,7 @@ input, label, textarea, button {
 .form-box input {
     flex-basis: 100%;
     margin-bottom: 0;
-    background-color: #eadbc8;
-    opacity: .75;
+    background-color: #f1e7da;
     border-style: solid;
     border-color: #a1c0c7;
     border-width: 1px;
@@ -821,7 +819,6 @@ footer .fa {
 
     textarea {
         margin-bottom: 0;
-        background-color: #eadbc8;
         opacity: .75;
         border-style: solid;
         border-color: #a1c0c7;
@@ -856,7 +853,8 @@ footer .fa {
     }
     
     #buttons input {
-        width: 30%;
+        width: 25%;
+        font-size: 1.3rem;
         color: black;
         background-color: #a1c0c7;
         border-radius: 50px;
@@ -1060,7 +1058,6 @@ footer .fa {
 
     textarea {
         margin-bottom: 0;
-        background-color: #eadbc8;
         opacity: .75;
         border-style: solid;
         border-color: #a1c0c7;
@@ -1103,6 +1100,7 @@ footer .fa {
     
     #buttons input {
         width: 25%;
+        font-size: 1.2rem;
         color: black;
         background-color: #a1c0c7;
         border-radius: 50px;
@@ -1110,7 +1108,7 @@ footer .fa {
     }
 
     #contact {
-        margin-top: -100%;
+        margin-top: -110%;
     }
 
     #contact p {
