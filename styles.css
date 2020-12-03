@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     animation-name: fade-In;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
