@@ -334,6 +334,10 @@ img {vertical-align: middle;}
     box-shadow: 1px 4px 12px grey;
 }
 
+.slideshow-container img:hover {
+    box-shadow: 1px 4px 12px grey;
+}
+
 /* Next & Previous Buttons */
 
 .prev, .next {
