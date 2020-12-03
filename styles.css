@@ -62,8 +62,9 @@ h3 a {
 }
 
 h4 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Stardos Stencil', cursive;
     font-size: 1.5rem;
+    font-weight: 400;
     text-align: center;
 }
 
